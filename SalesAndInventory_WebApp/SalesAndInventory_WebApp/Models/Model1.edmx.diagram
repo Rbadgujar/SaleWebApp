@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="5ee32a417e1e43f68b262d6a8a209d06" Name="Diagram1">
+        <EntityTypeShape EntityType="InventoryMgntModel.ReferralCode1" Width="1.5" PointX="0.75" PointY="6.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="InventoryMgntModel.tbl_BankAccount" Width="1.5" PointX="10.75" PointY="1" IsExpanded="true" />
+        <EntityTypeShape EntityType="InventoryMgntModel.tbl_BankAdjustment" Width="1.5" PointX="2.75" PointY="6.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="InventoryMgntModel.tbl_BanktoBankTransfer" Width="1.5" PointX="13" PointY="1" IsExpanded="true" />
+        <EntityTypeShape EntityType="InventoryMgntModel.tbl_CashAdjustment" Width="1.5" PointX="10.75" PointY="4.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="InventoryMgntModel.tbl_CashInhand" Width="1.5" PointX="5.75" PointY="10.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="InventoryMgntModel.tbl_CategoryMaster" Width="1.5" PointX="0.75" PointY="41.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="InventoryMgntModel.tbl_CompanyMaster" Width="1.5" PointX="0.75" PointY="10.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="InventoryMgntModel.tbl_CreditNote1" Width="1.5" PointX="7.5" PointY="31.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="InventoryMgntModel.tbl_CreditNoteInner" Width="1.5" PointX="5.25" PointY="34.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="InventoryMgntModel.tbl_DebitNote" Width="1.5" PointX="10.5" PointY="35.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="InventoryMgntModel.tbl_DebitNoteInner" Width="1.5" PointX="5.25" PointY="41.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="InventoryMgntModel.tbl_DeliveryChallan" Width="1.5" PointX="7.5" PointY="46.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="InventoryMgntModel.tbl_DeliveryChallanInner" Width="1.5" PointX="5.25" PointY="48.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="InventoryMgntModel.tbl_ExpenseCategory" Width="1.5" PointX="5.75" PointY="2" IsExpanded="true" />
+        <EntityTypeShape EntityType="InventoryMgntModel.tbl_Expenses" Width="1.5" PointX="8" PointY="1" IsExpanded="true" />
+        <EntityTypeShape EntityType="InventoryMgntModel.tbl_ExpensesInner" Width="1.5" PointX="10.75" PointY="7.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="InventoryMgntModel.tbl_ItemAdjustement" Width="1.5" PointX="7.75" PointY="10.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="InventoryMgntModel.tbl_ItemMaster" Width="1.5" PointX="3" PointY="39.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="InventoryMgntModel.tbl_ItemServicemaster" Width="1.5" PointX="8" PointY="6" IsExpanded="true" />
+        <EntityTypeShape EntityType="InventoryMgntModel.tbl_LoanBank" Width="1.5" PointX="3" PointY="10.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="InventoryMgntModel.tbl_LoginPasssword" Width="1.5" PointX="9.75" PointY="10.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="InventoryMgntModel.tbl_MakePayment" Width="1.5" PointX="11.75" PointY="10.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="InventoryMgntModel.tbl_OtherIncome" Width="1.5" PointX="3" PointY="1" IsExpanded="true" />
+        <EntityTypeShape EntityType="InventoryMgntModel.tbl_otherIncomeCaategory" Width="1.5" PointX="0.75" PointY="2.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="InventoryMgntModel.tbl_OtherIncomeInner" Width="1.5" PointX="12.75" PointY="4.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="InventoryMgntModel.tbl_PartyGroup" Width="1.5" PointX="12.75" PointY="7.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="InventoryMgntModel.tbl_PartyMaster" Width="1.5" PointX="16.25" PointY="62" IsExpanded="true" />
+        <EntityTypeShape EntityType="InventoryMgntModel.tbl_PaymentIn" Width="1.5" PointX="18.5" PointY="60.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="InventoryMgntModel.tbl_PaymentLink" Width="1.5" PointX="13.75" PointY="10.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="InventoryMgntModel.tbl_Paymentout" Width="1.5" PointX="18.5" PointY="64.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="InventoryMgntModel.tbl_PurchaseBill" Width="1.5" PointX="18.5" PointY="44.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="InventoryMgntModel.tbl_PurchaseBillInner" Width="1.5" PointX="10.25" PointY="46.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="InventoryMgntModel.tbl_PurchaseOrder" Width="1.5" PointX="15.5" PointY="42.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="InventoryMgntModel.tbl_PurchaseOrderInner" Width="1.5" PointX="13.25" PointY="41.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="InventoryMgntModel.tbl_QuotationInner" Width="1.5" PointX="13.25" PointY="35.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="InventoryMgntModel.tbl_SaleInvoice" Width="1.5" PointX="15.5" PointY="52.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="InventoryMgntModel.tbl_SaleInvoiceInner" Width="1.5" PointX="13.25" PointY="47.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="InventoryMgntModel.tbl_SaleOrder" Width="1.5" PointX="12.5" PointY="53.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="InventoryMgntModel.tbl_SaleOrderInner" Width="1.5" PointX="10.25" PointY="52.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="InventoryMgntModel.tbl_TransactionPasssword" Width="1.5" PointX="14.75" PointY="4.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="InventoryMgntModel.tbl_TransactionPrefix" Width="1.5" PointX="5.75" PointY="14.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="InventoryMgntModel.tbl_UnitConversion" Width="1.5" PointX="14.75" PointY="7.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="InventoryMgntModel.tbl_UnitMaster" Width="1.5" PointX="5.75" PointY="6.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="InventoryMgntModel.tble_NewCompany" Width="1.5" PointX="7.75" PointY="14.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="InventoryMgntModel.tblQuotation" Width="1.5" PointX="15.5" PointY="34.375" IsExpanded="true" />
+        <AssociationConnector Association="InventoryMgntModel.FK_tbl_BanktoBankTransfer_tbl_BankAccount" ManuallyRouted="false" />
+        <AssociationConnector Association="InventoryMgntModel.FK_tbl_ItemMaster" ManuallyRouted="false" />
+        <AssociationConnector Association="InventoryMgntModel.FK_tbl_ItemMaster_tbl_ItemMaster" ManuallyRouted="false" />
+        <AssociationConnector Association="InventoryMgntModel.FK_tbl_ItemMaster_tbl_ItemMaster3" ManuallyRouted="false" />
+        <AssociationConnector Association="InventoryMgntModel.PK_tbl_CategoryMaster_Categories" ManuallyRouted="false" />
+        <AssociationConnector Association="InventoryMgntModel.PK_tbl_PurchaseBillInner_Category" ManuallyRouted="false" />
+        <AssociationConnector Association="InventoryMgntModel.PK_tbl_PurchaseOrderInner_Category" ManuallyRouted="false" />
+        <AssociationConnector Association="InventoryMgntModel.PK_tbl_QuotationInner_Category" ManuallyRouted="false" />
+        <AssociationConnector Association="InventoryMgntModel.PK_tbl_SaleInvoiceInner_Category" ManuallyRouted="false" />
+        <AssociationConnector Association="InventoryMgntModel.PK_tbl_SaleOrderInner_Category" ManuallyRouted="false" />
+        <AssociationConnector Association="InventoryMgntModel.FK_tbl_LoanBank_tbl_CompanyMaster" ManuallyRouted="false" />
+        <AssociationConnector Association="InventoryMgntModel.PK_tbl_CreditNote1_Parties" ManuallyRouted="false" />
+        <AssociationConnector Association="InventoryMgntModel.tbl_CreditNote1_Parties" ManuallyRouted="false" />
+        <AssociationConnector Association="InventoryMgntModel.PK_tbl_CreditNoteInner_Item" ManuallyRouted="false" />
+        <AssociationConnector Association="InventoryMgntModel.PK_tbl_DebitNote_Parties" ManuallyRouted="false" />
+        <AssociationConnector Association="InventoryMgntModel.FK_tbl_DebitNote_tbl_DebitNote" ManuallyRouted="false" />
+        <AssociationConnector Association="InventoryMgntModel.PK_tbl_DebitNote_tbl_DebitNoteInner" ManuallyRouted="false" />
+        <AssociationConnector Association="InventoryMgntModel.PK_tbl_DebitNote_Item" ManuallyRouted="false" />
+        <AssociationConnector Association="InventoryMgntModel.PK_tbl_DeliveryChallan_Parties" ManuallyRouted="false" />
+        <AssociationConnector Association="InventoryMgntModel.PK_tbl_DeliveryChallan_tbl_DeliveryChallanInner" ManuallyRouted="false" />
+        <AssociationConnector Association="InventoryMgntModel.PK_tbl_DeliveryChallanInner_Item" ManuallyRouted="false" />
+        <AssociationConnector Association="InventoryMgntModel.FK_tbl_Expenses_tbl_ExpenseCategory" ManuallyRouted="false" />
+        <AssociationConnector Association="InventoryMgntModel.FK_tbl_Expenses_tbl_Expenses" ManuallyRouted="false" />
+        <AssociationConnector Association="InventoryMgntModel.FK_tbl_ItemMaster_tbl_ItemMaster1" ManuallyRouted="false" />
+        <AssociationConnector Association="InventoryMgntModel.PK_tbl_PurchaseBillInner_Item" ManuallyRouted="false" />
+        <AssociationConnector Association="InventoryMgntModel.PK_tbl_PurchaseOrderInner_Item" ManuallyRouted="false" />
+        <AssociationConnector Association="InventoryMgntModel.PK_tbl_QuotationInner_Item" ManuallyRouted="false" />
+        <AssociationConnector Association="InventoryMgntModel.PK_tbl_SaleInvoiceInner_Item" ManuallyRouted="false" />
+        <AssociationConnector Association="InventoryMgntModel.PK_tbl_SaleOrderInner_Item" ManuallyRouted="false" />
+        <AssociationConnector Association="InventoryMgntModel.FK_tbl_ItemServicemaster_tbl_UnitMaster" ManuallyRouted="false" />
+        <AssociationConnector Association="InventoryMgntModel.FK_tbl_OtherIncome_tbl_otherIncomeCaategory" ManuallyRouted="false" />
+        <AssociationConnector Association="InventoryMgntModel.FK_tbl_OtherIncome_tbl_otherIncomeCaategory1" ManuallyRouted="false" />
+        <AssociationConnector Association="InventoryMgntModel.FK_tbl_OtherIncome_tbl_otherIncomeCaategory2" ManuallyRouted="false" />
+        <AssociationConnector Association="InventoryMgntModel.FK_tbl_PaymentIn_tbl_PartyMaster" ManuallyRouted="false" />
+        <AssociationConnector Association="InventoryMgntModel.FK_tbl_Paymentout_tbl_PartyMaster" ManuallyRouted="false" />
+        <AssociationConnector Association="InventoryMgntModel.FK_tbl_PurchaseBill_tbl_PartyMaster" ManuallyRouted="false" />
+        <AssociationConnector Association="InventoryMgntModel.FK_tbl_PurchaseBill_tbl_CategoryMaster" ManuallyRouted="false" />
+        <AssociationConnector Association="InventoryMgntModel.FK_tbl_PurchaseBill_tbl_PurchaseBillInner" ManuallyRouted="false" />
+        <AssociationConnector Association="InventoryMgntModel.FK_tbl_PurchaseOrder_tbl_PartyMaster" ManuallyRouted="false" />
+        <AssociationConnector Association="InventoryMgntModel.FK_tbl_PurchaseOrder_tbl_PurchaseOrderInner" ManuallyRouted="false" />
+        <AssociationConnector Association="InventoryMgntModel.PK_tblQuotation_Parties" ManuallyRouted="false" />
+        <AssociationConnector Association="InventoryMgntModel.PK_tblQuotation_tbl_QuotationInner" ManuallyRouted="false" />
+        <AssociationConnector Association="InventoryMgntModel.FK_tbl_SaleInvoice_tbl_PartyMaster" ManuallyRouted="false" />
+        <AssociationConnector Association="InventoryMgntModel.FK_tbl_SaleInvoice_tbl_SaleInvoiceInner" ManuallyRouted="false" />
+        <AssociationConnector Association="InventoryMgntModel.FK_tbl_SaleOrder_tbl_PartyMaster" ManuallyRouted="false" />
+        <AssociationConnector Association="InventoryMgntModel.FK_tbl_SaleOrder_tbl_SaleOrderInner" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>

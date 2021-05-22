@@ -1,0 +1,27 @@
+﻿@{
+    ViewBag.Title = "Add Item";
+}
+<h2>@ViewBag.Title.</h2>
+<h3>@ViewBag.Message</h3>
+
+
+
+@Html.DevExpress().Label(settings =>
+{
+    settings.Name = "Label";
+    settings.Text = "Item Name :";
+
+}).GetHtml()
+    @Html.DevExpress().TextBox(settings =>
+    {
+        settings.Name = "txtItemName";
+    }).GetHtml()
+@Html.DevExpress().Label(settings =>
+{
+    settings.Name = "Label2";
+    settings.Text = "Item Code :";
+}).GetHtml()
+@Html.DevExpress().TextBox(settings =>
+    {
+        settings.Name = "txtItemCode";
+    }).GetHtml()
